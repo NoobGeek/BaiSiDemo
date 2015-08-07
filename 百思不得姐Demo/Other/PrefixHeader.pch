@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐Demo
+//
+//  Created by Tony Stark on 15/7/22.
+//  Copyright (c) 2015年 Tony Stark. All rights reserved.
+//
+
+#ifndef _____Demo_PrefixHeader_pch
+#define _____Demo_PrefixHeader_pch
+#import "UIView+JHCGExt.h"
+#import "JHConst.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#define JHRGBColor(r, g ,b, a) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
+#define JHScreenBounds [UIScreen mainScreen].bounds
+
+#define JHSetBackgroundColor() self.view.backgroundColor=JHRGBColor(223,223,223,1);
+
+#define JHBarBackgroundColor JHRGBColor(255,255,255,0.9)
+
+#define animationDuration 0.6
+
+
+#ifdef DEBUG
+
+#define JHLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define JHLog(...)
+
+#endif
+
+#endif

@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE54913B44E3822AD4F9A44 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086CD322886D7B6656A0A651 /* libPods.a */; };
+		6FDFFF251B5FAC57006BACD3 /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDFFF241B5FAC57006BACD3 /* _____DemoTests.m */; };
+		6FFFA9CE1B722A45007DAACE /* JHLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9971B722A44007DAACE /* JHLoginButton.m */; };
+		6FFFA9CF1B722A45007DAACE /* JHLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9991B722A44007DAACE /* JHLoginController.m */; };
+		6FFFA9D01B722A45007DAACE /* JHLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA99A1B722A44007DAACE /* JHLoginController.xib */; };
+		6FFFA9D11B722A45007DAACE /* JHTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA99C1B722A44007DAACE /* JHTopicCell.m */; };
+		6FFFA9D21B722A45007DAACE /* JHTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA99D1B722A44007DAACE /* JHTopicCell.xib */; };
+		6FFFA9D31B722A45007DAACE /* JHTopicContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA99F1B722A44007DAACE /* JHTopicContentController.m */; };
+		6FFFA9D41B722A45007DAACE /* JHTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9A11B722A44007DAACE /* JHTopicController.m */; };
+		6FFFA9D51B722A45007DAACE /* JHTopicController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9A21B722A44007DAACE /* JHTopicController.xib */; };
+		6FFFA9D61B722A45007DAACE /* JHTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9A41B722A44007DAACE /* JHTopicModel.m */; };
+		6FFFA9D71B722A45007DAACE /* JHConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9A71B722A44007DAACE /* JHConst.m */; };
+		6FFFA9D81B722A45007DAACE /* UIBarButtonItem+JHBarButtonExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9A91B722A44007DAACE /* UIBarButtonItem+JHBarButtonExt.m */; };
+		6FFFA9D91B722A45007DAACE /* UIView+JHCGExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9AB1B722A44007DAACE /* UIView+JHCGExt.m */; };
+		6FFFA9DA1B722A45007DAACE /* JHAddFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9AE1B722A44007DAACE /* JHAddFocusController.m */; };
+		6FFFA9DB1B722A45007DAACE /* JHAddFocusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9AF1B722A44007DAACE /* JHAddFocusController.xib */; };
+		6FFFA9DC1B722A45007DAACE /* JHFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9B11B722A45007DAACE /* JHFocusController.m */; };
+		6FFFA9DD1B722A45007DAACE /* JHFocusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9B21B722A45007DAACE /* JHFocusController.xib */; };
+		6FFFA9DE1B722A45007DAACE /* JHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9B31B722A45007DAACE /* JHTableViewCell.xib */; };
+		6FFFA9E31B722A45007DAACE /* JHMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9BE1B722A45007DAACE /* JHMeController.m */; };
+		6FFFA9E41B722A45007DAACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9C21B722A45007DAACE /* AppDelegate.m */; };
+		6FFFA9E51B722A45007DAACE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9C31B722A45007DAACE /* Info.plist */; };
+		6FFFA9E61B722A45007DAACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9C41B722A45007DAACE /* main.m */; };
+		6FFFA9E71B722A45007DAACE /* JHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9C71B722A45007DAACE /* JHNavigationController.m */; };
+		6FFFA9E81B722A45007DAACE /* JHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9CB1B722A45007DAACE /* JHTabBar.m */; };
+		6FFFA9E91B722A45007DAACE /* JHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9CD1B722A45007DAACE /* JHTabBarController.m */; };
+		6FFFA9EB1B722A70007DAACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFFA9EA1B722A70007DAACE /* Images.xcassets */; };
+		6FFFA9F61B722ADD007DAACE /* JHLoginTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9EF1B722ADD007DAACE /* JHLoginTF.m */; };
+		6FFFA9F71B722ADD007DAACE /* JHPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9F11B722ADD007DAACE /* JHPublishController.m */; };
+		6FFFA9F81B722ADD007DAACE /* JHQuiakLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9F31B722ADD007DAACE /* JHQuiakLoginButton.m */; };
+		6FFFA9F91B722ADD007DAACE /* JHSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9F51B722ADD007DAACE /* JHSelectButton.m */; };
+		6FFFA9FC1B73862C007DAACE /* JHTopicComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9FB1B73862C007DAACE /* JHTopicComment.m */; };
+		6FFFA9FF1B73867D007DAACE /* JHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9FE1B73867D007DAACE /* JHUser.m */; };
+		6FFFAA031B74ACBA007DAACE /* JHNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFAA021B74ACBA007DAACE /* JHNewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FDFFF1F1B5FAC57006BACD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FDFFEFD1B5FAC57006BACD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FDFFF041B5FAC57006BACD3;
+			remoteInfo = "百思不得姐Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086CD322886D7B6656A0A651 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1025245828042F8ADE139E5E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3F4F853043BF4346C77AA9EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6FDFFF051B5FAC57006BACD3 /* 百思不得姐Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDFFF1E1B5FAC57006BACD3 /* 百思不得姐DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDFFF231B5FAC57006BACD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDFFF241B5FAC57006BACD3 /* _____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoTests.m"; sourceTree = "<group>"; };
+		6FFFA9961B722A44007DAACE /* JHLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoginButton.h; sourceTree = "<group>"; };
+		6FFFA9971B722A44007DAACE /* JHLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoginButton.m; sourceTree = "<group>"; };
+		6FFFA9981B722A44007DAACE /* JHLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoginController.h; sourceTree = "<group>"; };
+		6FFFA9991B722A44007DAACE /* JHLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoginController.m; sourceTree = "<group>"; };
+		6FFFA99A1B722A44007DAACE /* JHLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLoginController.xib; sourceTree = "<group>"; };
+		6FFFA99B1B722A44007DAACE /* JHTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopicCell.h; sourceTree = "<group>"; };
+		6FFFA99C1B722A44007DAACE /* JHTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicCell.m; sourceTree = "<group>"; };
+		6FFFA99D1B722A44007DAACE /* JHTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHTopicCell.xib; sourceTree = "<group>"; };
+		6FFFA99E1B722A44007DAACE /* JHTopicContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopicContentController.h; sourceTree = "<group>"; };
+		6FFFA99F1B722A44007DAACE /* JHTopicContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicContentController.m; sourceTree = "<group>"; };
+		6FFFA9A01B722A44007DAACE /* JHTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopicController.h; sourceTree = "<group>"; };
+		6FFFA9A11B722A44007DAACE /* JHTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicController.m; sourceTree = "<group>"; };
+		6FFFA9A21B722A44007DAACE /* JHTopicController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHTopicController.xib; sourceTree = "<group>"; };
+		6FFFA9A31B722A44007DAACE /* JHTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopicModel.h; sourceTree = "<group>"; };
+		6FFFA9A41B722A44007DAACE /* JHTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicModel.m; sourceTree = "<group>"; };
+		6FFFA9A61B722A44007DAACE /* JHConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHConst.h; sourceTree = "<group>"; };
+		6FFFA9A71B722A44007DAACE /* JHConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHConst.m; sourceTree = "<group>"; };
+		6FFFA9A81B722A44007DAACE /* UIBarButtonItem+JHBarButtonExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JHBarButtonExt.h"; sourceTree = "<group>"; };
+		6FFFA9A91B722A44007DAACE /* UIBarButtonItem+JHBarButtonExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JHBarButtonExt.m"; sourceTree = "<group>"; };
+		6FFFA9AA1B722A44007DAACE /* UIView+JHCGExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHCGExt.h"; sourceTree = "<group>"; };
+		6FFFA9AB1B722A44007DAACE /* UIView+JHCGExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHCGExt.m"; sourceTree = "<group>"; };
+		6FFFA9AD1B722A44007DAACE /* JHAddFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddFocusController.h; sourceTree = "<group>"; };
+		6FFFA9AE1B722A44007DAACE /* JHAddFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAddFocusController.m; sourceTree = "<group>"; };
+		6FFFA9AF1B722A44007DAACE /* JHAddFocusController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAddFocusController.xib; sourceTree = "<group>"; };
+		6FFFA9B01B722A45007DAACE /* JHFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFocusController.h; sourceTree = "<group>"; };
+		6FFFA9B11B722A45007DAACE /* JHFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFocusController.m; sourceTree = "<group>"; };
+		6FFFA9B21B722A45007DAACE /* JHFocusController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHFocusController.xib; sourceTree = "<group>"; };
+		6FFFA9B31B722A45007DAACE /* JHTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHTableViewCell.xib; sourceTree = "<group>"; };
+		6FFFA9BD1B722A45007DAACE /* JHMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMeController.h; sourceTree = "<group>"; };
+		6FFFA9BE1B722A45007DAACE /* JHMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMeController.m; sourceTree = "<group>"; };
+		6FFFA9C11B722A45007DAACE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FFFA9C21B722A45007DAACE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FFFA9C31B722A45007DAACE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFFA9C41B722A45007DAACE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FFFA9C61B722A45007DAACE /* JHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavigationController.h; sourceTree = "<group>"; };
+		6FFFA9C71B722A45007DAACE /* JHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavigationController.m; sourceTree = "<group>"; };
+		6FFFA9C81B722A45007DAACE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6FFFA9CA1B722A45007DAACE /* JHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBar.h; sourceTree = "<group>"; };
+		6FFFA9CB1B722A45007DAACE /* JHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBar.m; sourceTree = "<group>"; };
+		6FFFA9CC1B722A45007DAACE /* JHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTabBarController.h; sourceTree = "<group>"; };
+		6FFFA9CD1B722A45007DAACE /* JHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTabBarController.m; sourceTree = "<group>"; };
+		6FFFA9EA1B722A70007DAACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FFFA9EE1B722ADD007DAACE /* JHLoginTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoginTF.h; sourceTree = "<group>"; };
+		6FFFA9EF1B722ADD007DAACE /* JHLoginTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoginTF.m; sourceTree = "<group>"; };
+		6FFFA9F01B722ADD007DAACE /* JHPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPublishController.h; sourceTree = "<group>"; };
+		6FFFA9F11B722ADD007DAACE /* JHPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPublishController.m; sourceTree = "<group>"; };
+		6FFFA9F21B722ADD007DAACE /* JHQuiakLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHQuiakLoginButton.h; sourceTree = "<group>"; };
+		6FFFA9F31B722ADD007DAACE /* JHQuiakLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHQuiakLoginButton.m; sourceTree = "<group>"; };
+		6FFFA9F41B722ADD007DAACE /* JHSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSelectButton.h; sourceTree = "<group>"; };
+		6FFFA9F51B722ADD007DAACE /* JHSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSelectButton.m; sourceTree = "<group>"; };
+		6FFFA9FA1B73862C007DAACE /* JHTopicComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTopicComment.h; sourceTree = "<group>"; };
+		6FFFA9FB1B73862C007DAACE /* JHTopicComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicComment.m; sourceTree = "<group>"; };
+		6FFFA9FD1B73867D007DAACE /* JHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUser.h; sourceTree = "<group>"; };
+		6FFFA9FE1B73867D007DAACE /* JHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUser.m; sourceTree = "<group>"; };
+		6FFFAA011B74ACBA007DAACE /* JHNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHNewController.h; path = ../Essence/JHNewController.h; sourceTree = "<group>"; };
+		6FFFAA021B74ACBA007DAACE /* JHNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHNewController.m; path = ../Essence/JHNewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDFFF021B5FAC57006BACD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE54913B44E3822AD4F9A44 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDFFF1B1B5FAC57006BACD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32CC552F7AAC75A09DDD36A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086CD322886D7B6656A0A651 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		336030231A7D65DE6B7DB277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F853043BF4346C77AA9EF /* Pods.debug.xcconfig */,
+				1025245828042F8ADE139E5E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FDFFEFC1B5FAC57006BACD3 = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9941B722A44007DAACE /* 百思不得姐Demo */,
+				6FDFFF211B5FAC57006BACD3 /* 百思不得姐DemoTests */,
+				6FDFFF061B5FAC57006BACD3 /* Products */,
+				336030231A7D65DE6B7DB277 /* Pods */,
+				32CC552F7AAC75A09DDD36A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDFFF061B5FAC57006BACD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDFFF051B5FAC57006BACD3 /* 百思不得姐Demo.app */,
+				6FDFFF1E1B5FAC57006BACD3 /* 百思不得姐DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FDFFF211B5FAC57006BACD3 /* 百思不得姐DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FDFFF241B5FAC57006BACD3 /* _____DemoTests.m */,
+				6FDFFF221B5FAC57006BACD3 /* Supporting Files */,
+			);
+			path = "百思不得姐DemoTests";
+			sourceTree = "<group>";
+		};
+		6FDFFF221B5FAC57006BACD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FDFFF231B5FAC57006BACD3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FFFA9941B722A44007DAACE /* 百思不得姐Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9ED1B722ADD007DAACE /* Login */,
+				6FFFA9951B722A44007DAACE /* Essence */,
+				6FFFA9A51B722A44007DAACE /* Ext */,
+				6FFFA9AC1B722A44007DAACE /* Focus */,
+				6FFFA9BC1B722A45007DAACE /* Me */,
+				6FFFA9BF1B722A45007DAACE /* New */,
+				6FFFA9C01B722A45007DAACE /* Other */,
+			);
+			path = "百思不得姐Demo";
+			sourceTree = "<group>";
+		};
+		6FFFA9951B722A44007DAACE /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9961B722A44007DAACE /* JHLoginButton.h */,
+				6FFFA9971B722A44007DAACE /* JHLoginButton.m */,
+				6FFFA9981B722A44007DAACE /* JHLoginController.h */,
+				6FFFA9991B722A44007DAACE /* JHLoginController.m */,
+				6FFFA99A1B722A44007DAACE /* JHLoginController.xib */,
+				6FFFA99B1B722A44007DAACE /* JHTopicCell.h */,
+				6FFFA99C1B722A44007DAACE /* JHTopicCell.m */,
+				6FFFA99D1B722A44007DAACE /* JHTopicCell.xib */,
+				6FFFA99E1B722A44007DAACE /* JHTopicContentController.h */,
+				6FFFA99F1B722A44007DAACE /* JHTopicContentController.m */,
+				6FFFA9A01B722A44007DAACE /* JHTopicController.h */,
+				6FFFA9A11B722A44007DAACE /* JHTopicController.m */,
+				6FFFA9A21B722A44007DAACE /* JHTopicController.xib */,
+				6FFFA9FD1B73867D007DAACE /* JHUser.h */,
+				6FFFA9FE1B73867D007DAACE /* JHUser.m */,
+				6FFFA9FA1B73862C007DAACE /* JHTopicComment.h */,
+				6FFFA9FB1B73862C007DAACE /* JHTopicComment.m */,
+				6FFFA9A31B722A44007DAACE /* JHTopicModel.h */,
+				6FFFA9A41B722A44007DAACE /* JHTopicModel.m */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		6FFFA9A51B722A44007DAACE /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9A61B722A44007DAACE /* JHConst.h */,
+				6FFFA9A71B722A44007DAACE /* JHConst.m */,
+				6FFFA9A81B722A44007DAACE /* UIBarButtonItem+JHBarButtonExt.h */,
+				6FFFA9A91B722A44007DAACE /* UIBarButtonItem+JHBarButtonExt.m */,
+				6FFFA9AA1B722A44007DAACE /* UIView+JHCGExt.h */,
+				6FFFA9AB1B722A44007DAACE /* UIView+JHCGExt.m */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		6FFFA9AC1B722A44007DAACE /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9AD1B722A44007DAACE /* JHAddFocusController.h */,
+				6FFFA9AE1B722A44007DAACE /* JHAddFocusController.m */,
+				6FFFA9AF1B722A44007DAACE /* JHAddFocusController.xib */,
+				6FFFA9B01B722A45007DAACE /* JHFocusController.h */,
+				6FFFA9B11B722A45007DAACE /* JHFocusController.m */,
+				6FFFA9B21B722A45007DAACE /* JHFocusController.xib */,
+				6FFFA9B31B722A45007DAACE /* JHTableViewCell.xib */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		6FFFA9BC1B722A45007DAACE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9BD1B722A45007DAACE /* JHMeController.h */,
+				6FFFA9BE1B722A45007DAACE /* JHMeController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		6FFFA9BF1B722A45007DAACE /* New */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFAA011B74ACBA007DAACE /* JHNewController.h */,
+				6FFFAA021B74ACBA007DAACE /* JHNewController.m */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		6FFFA9C01B722A45007DAACE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9EA1B722A70007DAACE /* Images.xcassets */,
+				6FFFA9C81B722A45007DAACE /* PrefixHeader.pch */,
+				6FFFA9C11B722A45007DAACE /* AppDelegate.h */,
+				6FFFA9C21B722A45007DAACE /* AppDelegate.m */,
+				6FFFA9C31B722A45007DAACE /* Info.plist */,
+				6FFFA9C41B722A45007DAACE /* main.m */,
+				6FFFA9C51B722A45007DAACE /* Navigaion */,
+				6FFFA9C91B722A45007DAACE /* TabBar */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6FFFA9C51B722A45007DAACE /* Navigaion */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9C61B722A45007DAACE /* JHNavigationController.h */,
+				6FFFA9C71B722A45007DAACE /* JHNavigationController.m */,
+			);
+			path = Navigaion;
+			sourceTree = "<group>";
+		};
+		6FFFA9C91B722A45007DAACE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9CA1B722A45007DAACE /* JHTabBar.h */,
+				6FFFA9CB1B722A45007DAACE /* JHTabBar.m */,
+				6FFFA9CC1B722A45007DAACE /* JHTabBarController.h */,
+				6FFFA9CD1B722A45007DAACE /* JHTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6FFFA9ED1B722ADD007DAACE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFA9EE1B722ADD007DAACE /* JHLoginTF.h */,
+				6FFFA9EF1B722ADD007DAACE /* JHLoginTF.m */,
+				6FFFA9F01B722ADD007DAACE /* JHPublishController.h */,
+				6FFFA9F11B722ADD007DAACE /* JHPublishController.m */,
+				6FFFA9F21B722ADD007DAACE /* JHQuiakLoginButton.h */,
+				6FFFA9F31B722ADD007DAACE /* JHQuiakLoginButton.m */,
+				6FFFA9F41B722ADD007DAACE /* JHSelectButton.h */,
+				6FFFA9F51B722ADD007DAACE /* JHSelectButton.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDFFF041B5FAC57006BACD3 /* 百思不得姐Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDFFF281B5FAC57006BACD3 /* Build configuration list for PBXNativeTarget "百思不得姐Demo" */;
+			buildPhases = (
+				C7FE7CF19DC23A76B39D15D8 /* Check Pods Manifest.lock */,
+				6FDFFF011B5FAC57006BACD3 /* Sources */,
+				6FDFFF021B5FAC57006BACD3 /* Frameworks */,
+				6FDFFF031B5FAC57006BACD3 /* Resources */,
+				69383FEFCEC20C351A5689A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐Demo";
+			productName = "百思不得姐Demo";
+			productReference = 6FDFFF051B5FAC57006BACD3 /* 百思不得姐Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FDFFF1D1B5FAC57006BACD3 /* 百思不得姐DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDFFF2B1B5FAC57006BACD3 /* Build configuration list for PBXNativeTarget "百思不得姐DemoTests" */;
+			buildPhases = (
+				6FDFFF1A1B5FAC57006BACD3 /* Sources */,
+				6FDFFF1B1B5FAC57006BACD3 /* Frameworks */,
+				6FDFFF1C1B5FAC57006BACD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FDFFF201B5FAC57006BACD3 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐DemoTests";
+			productName = "百思不得姐DemoTests";
+			productReference = 6FDFFF1E1B5FAC57006BACD3 /* 百思不得姐DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDFFEFD1B5FAC57006BACD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JH;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tony Stark";
+				TargetAttributes = {
+					6FDFFF041B5FAC57006BACD3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					6FDFFF1D1B5FAC57006BACD3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 6FDFFF041B5FAC57006BACD3;
+					};
+				};
+			};
+			buildConfigurationList = 6FDFFF001B5FAC57006BACD3 /* Build configuration list for PBXProject "百思不得姐Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDFFEFC1B5FAC57006BACD3;
+			productRefGroup = 6FDFFF061B5FAC57006BACD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDFFF041B5FAC57006BACD3 /* 百思不得姐Demo */,
+				6FDFFF1D1B5FAC57006BACD3 /* 百思不得姐DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDFFF031B5FAC57006BACD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFFA9DD1B722A45007DAACE /* JHFocusController.xib in Resources */,
+				6FFFA9EB1B722A70007DAACE /* Images.xcassets in Resources */,
+				6FFFA9DB1B722A45007DAACE /* JHAddFocusController.xib in Resources */,
+				6FFFA9D51B722A45007DAACE /* JHTopicController.xib in Resources */,
+				6FFFA9DE1B722A45007DAACE /* JHTableViewCell.xib in Resources */,
+				6FFFA9D01B722A45007DAACE /* JHLoginController.xib in Resources */,
+				6FFFA9D21B722A45007DAACE /* JHTopicCell.xib in Resources */,
+				6FFFA9E51B722A45007DAACE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDFFF1C1B5FAC57006BACD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69383FEFCEC20C351A5689A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FE7CF19DC23A76B39D15D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDFFF011B5FAC57006BACD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFFA9F91B722ADD007DAACE /* JHSelectButton.m in Sources */,
+				6FFFA9DA1B722A45007DAACE /* JHAddFocusController.m in Sources */,
+				6FFFA9D81B722A45007DAACE /* UIBarButtonItem+JHBarButtonExt.m in Sources */,
+				6FFFA9F71B722ADD007DAACE /* JHPublishController.m in Sources */,
+				6FFFAA031B74ACBA007DAACE /* JHNewController.m in Sources */,
+				6FFFA9D41B722A45007DAACE /* JHTopicController.m in Sources */,
+				6FFFA9E31B722A45007DAACE /* JHMeController.m in Sources */,
+				6FFFA9CE1B722A45007DAACE /* JHLoginButton.m in Sources */,
+				6FFFA9D31B722A45007DAACE /* JHTopicContentController.m in Sources */,
+				6FFFA9F81B722ADD007DAACE /* JHQuiakLoginButton.m in Sources */,
+				6FFFA9D91B722A45007DAACE /* UIView+JHCGExt.m in Sources */,
+				6FFFA9D11B722A45007DAACE /* JHTopicCell.m in Sources */,
+				6FFFA9E71B722A45007DAACE /* JHNavigationController.m in Sources */,
+				6FFFA9F61B722ADD007DAACE /* JHLoginTF.m in Sources */,
+				6FFFA9E81B722A45007DAACE /* JHTabBar.m in Sources */,
+				6FFFA9FF1B73867D007DAACE /* JHUser.m in Sources */,
+				6FFFA9DC1B722A45007DAACE /* JHFocusController.m in Sources */,
+				6FFFA9FC1B73862C007DAACE /* JHTopicComment.m in Sources */,
+				6FFFA9E91B722A45007DAACE /* JHTabBarController.m in Sources */,
+				6FFFA9CF1B722A45007DAACE /* JHLoginController.m in Sources */,
+				6FFFA9D71B722A45007DAACE /* JHConst.m in Sources */,
+				6FFFA9D61B722A45007DAACE /* JHTopicModel.m in Sources */,
+				6FFFA9E41B722A45007DAACE /* AppDelegate.m in Sources */,
+				6FFFA9E61B722A45007DAACE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDFFF1A1B5FAC57006BACD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDFFF251B5FAC57006BACD3 /* _____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FDFFF201B5FAC57006BACD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FDFFF041B5FAC57006BACD3 /* 百思不得姐Demo */;
+			targetProxy = 6FDFFF1F1B5FAC57006BACD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FDFFF261B5FAC57006BACD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FDFFF271B5FAC57006BACD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDFFF291B5FAC57006BACD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4F853043BF4346C77AA9EF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐Demo/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/百思不得姐Demo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FDFFF2A1B5FAC57006BACD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025245828042F8ADE139E5E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐Demo/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/百思不得姐Demo/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6FDFFF2C1B5FAC57006BACD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "百思不得姐DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐Demo.app/百思不得姐Demo";
+			};
+			name = Debug;
+		};
+		6FDFFF2D1B5FAC57006BACD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "百思不得姐DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐Demo.app/百思不得姐Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDFFF001B5FAC57006BACD3 /* Build configuration list for PBXProject "百思不得姐Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDFFF261B5FAC57006BACD3 /* Debug */,
+				6FDFFF271B5FAC57006BACD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDFFF281B5FAC57006BACD3 /* Build configuration list for PBXNativeTarget "百思不得姐Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDFFF291B5FAC57006BACD3 /* Debug */,
+				6FDFFF2A1B5FAC57006BACD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDFFF2B1B5FAC57006BACD3 /* Build configuration list for PBXNativeTarget "百思不得姐DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDFFF2C1B5FAC57006BACD3 /* Debug */,
+				6FDFFF2D1B5FAC57006BACD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FDFFEFD1B5FAC57006BACD3 /* Project object */;
+}
