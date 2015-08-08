@@ -40,7 +40,6 @@
 		6FFFA9F91B722ADD007DAACE /* JHSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9F51B722ADD007DAACE /* JHSelectButton.m */; };
 		6FFFA9FC1B73862C007DAACE /* JHTopicComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9FB1B73862C007DAACE /* JHTopicComment.m */; };
 		6FFFA9FF1B73867D007DAACE /* JHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFA9FE1B73867D007DAACE /* JHUser.m */; };
-		6FFFAA031B74ACBA007DAACE /* JHNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFFAA021B74ACBA007DAACE /* JHNewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,8 +114,6 @@
 		6FFFA9FB1B73862C007DAACE /* JHTopicComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTopicComment.m; sourceTree = "<group>"; };
 		6FFFA9FD1B73867D007DAACE /* JHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUser.h; sourceTree = "<group>"; };
 		6FFFA9FE1B73867D007DAACE /* JHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUser.m; sourceTree = "<group>"; };
-		6FFFAA011B74ACBA007DAACE /* JHNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHNewController.h; path = ../Essence/JHNewController.h; sourceTree = "<group>"; };
-		6FFFAA021B74ACBA007DAACE /* JHNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHNewController.m; path = ../Essence/JHNewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,8 +268,6 @@
 		6FFFA9BF1B722A45007DAACE /* New */ = {
 			isa = PBXGroup;
 			children = (
-				6FFFAA011B74ACBA007DAACE /* JHNewController.h */,
-				6FFFAA021B74ACBA007DAACE /* JHNewController.m */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -472,7 +467,6 @@
 				6FFFA9DA1B722A45007DAACE /* JHAddFocusController.m in Sources */,
 				6FFFA9D81B722A45007DAACE /* UIBarButtonItem+JHBarButtonExt.m in Sources */,
 				6FFFA9F71B722ADD007DAACE /* JHPublishController.m in Sources */,
-				6FFFAA031B74ACBA007DAACE /* JHNewController.m in Sources */,
 				6FFFA9D41B722A45007DAACE /* JHTopicController.m in Sources */,
 				6FFFA9E31B722A45007DAACE /* JHMeController.m in Sources */,
 				6FFFA9CE1B722A45007DAACE /* JHLoginButton.m in Sources */,
