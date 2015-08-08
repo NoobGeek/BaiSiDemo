@@ -4,7 +4,7 @@
 //
 //  Created by Tony Stark on 15/7/31.
 //  Copyright (c) 2015年 Tony Stark. All rights reserved.
-//  ...
+//  
 
 #import "JHTopicContentController.h"
 #import "JHTopicCell.h"
